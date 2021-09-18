@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		402457AF1EF4ED5B00AD77FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402457AE1EF4ED5B00AD77FB /* AppDelegate.swift */; };
-		402457B11EF4ED5B00AD77FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402457B01EF4ED5B00AD77FB /* ViewController.swift */; };
+		402457B11EF4ED5B00AD77FB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402457B01EF4ED5B00AD77FB /* MainVC.swift */; };
 		402457B41EF4ED5B00AD77FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402457B21EF4ED5B00AD77FB /* Main.storyboard */; };
 		402457B71EF4ED5B00AD77FB /* Morssage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 402457B51EF4ED5B00AD77FB /* Morssage.xcdatamodeld */; };
 		402457B91EF4ED5B00AD77FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402457B81EF4ED5B00AD77FB /* Assets.xcassets */; };
 		402457BC1EF4ED5B00AD77FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402457BA1EF4ED5B00AD77FB /* LaunchScreen.storyboard */; };
+		402457C41EF4EEEA00AD77FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 402457C31EF4EEEA00AD77FB /* GoogleService-Info.plist */; };
+		402457C61EF4F9BC00AD77FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402457C51EF4F9BC00AD77FB /* Constants.swift */; };
+		402457CC1EF4F9CA00AD77FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402457C81EF4F9CA00AD77FB /* Images.xcassets */; };
+		402457CD1EF4F9CA00AD77FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402457C91EF4F9CA00AD77FB /* LaunchScreen.xib */; };
+		402457CE1EF4F9CA00AD77FB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 402457CA1EF4F9CA00AD77FB /* Roboto-Regular.ttf */; };
+		402457CF1EF4F9CA00AD77FB /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 402457CB1EF4F9CA00AD77FB /* RobotoMono-Regular.ttf */; };
+		4024581B1EF5A1F900AD77FB /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4024581A1EF5A1F900AD77FB /* MainCell.swift */; };
+		5CF1BE5CF738B9B90E1135E4 /* Pods_Morssage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5E39583E20C18D49C63037 /* Pods_Morssage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5E39583E20C18D49C63037 /* Pods_Morssage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Morssage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402457AB1EF4ED5B00AD77FB /* Morssage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morssage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402457AE1EF4ED5B00AD77FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		402457B01EF4ED5B00AD77FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		402457B01EF4ED5B00AD77FB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		402457B31EF4ED5B00AD77FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		402457B61EF4ED5B00AD77FB /* Morssage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Morssage.xcdatamodel; sourceTree = "<group>"; };
 		402457B81EF4ED5B00AD77FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402457BB1EF4ED5B00AD77FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		402457BD1EF4ED5B00AD77FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402457C31EF4EEEA00AD77FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		402457C51EF4F9BC00AD77FB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		402457C81EF4F9CA00AD77FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		402457C91EF4F9CA00AD77FB /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		402457CA1EF4F9CA00AD77FB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		402457CB1EF4F9CA00AD77FB /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		4024581A1EF5A1F900AD77FB /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		9A5F4296504488A2182B6A82 /* Pods-Morssage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morssage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Morssage/Pods-Morssage.release.xcconfig"; sourceTree = "<group>"; };
+		FA5E4FC025D3C891F153537F /* Pods-Morssage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morssage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Morssage/Pods-Morssage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF1BE5CF738B9B90E1135E4 /* Pods_Morssage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				402457AD1EF4ED5B00AD77FB /* Morssage */,
 				402457AC1EF4ED5B00AD77FB /* Products */,
+				97610D18300BB261E4F78191 /* Pods */,
+				FCB0952710ED000127ACBCF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,46 @@
 			isa = PBXGroup;
 			children = (
 				402457AE1EF4ED5B00AD77FB /* AppDelegate.swift */,
-				402457B01EF4ED5B00AD77FB /* ViewController.swift */,
+				4024581A1EF5A1F900AD77FB /* MainCell.swift */,
+				402457B01EF4ED5B00AD77FB /* MainVC.swift */,
 				402457B21EF4ED5B00AD77FB /* Main.storyboard */,
 				402457B81EF4ED5B00AD77FB /* Assets.xcassets */,
 				402457BA1EF4ED5B00AD77FB /* LaunchScreen.storyboard */,
 				402457BD1EF4ED5B00AD77FB /* Info.plist */,
 				402457B51EF4ED5B00AD77FB /* Morssage.xcdatamodeld */,
+				402457C31EF4EEEA00AD77FB /* GoogleService-Info.plist */,
+				402457C51EF4F9BC00AD77FB /* Constants.swift */,
+				402457C71EF4F9CA00AD77FB /* shared */,
 			);
 			path = Morssage;
+			sourceTree = "<group>";
+		};
+		402457C71EF4F9CA00AD77FB /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				402457C81EF4F9CA00AD77FB /* Images.xcassets */,
+				402457C91EF4F9CA00AD77FB /* LaunchScreen.xib */,
+				402457CA1EF4F9CA00AD77FB /* Roboto-Regular.ttf */,
+				402457CB1EF4F9CA00AD77FB /* RobotoMono-Regular.ttf */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		97610D18300BB261E4F78191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E4FC025D3C891F153537F /* Pods-Morssage.debug.xcconfig */,
+				9A5F4296504488A2182B6A82 /* Pods-Morssage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCB0952710ED000127ACBCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E39583E20C18D49C63037 /* Pods_Morssage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 402457C01EF4ED5B00AD77FB /* Build configuration list for PBXNativeTarget "Morssage" */;
 			buildPhases = (
+				0050B66C4FA1133096923C5D /* [CP] Check Pods Manifest.lock */,
 				402457A71EF4ED5B00AD77FB /* Sources */,
 				402457A81EF4ED5B00AD77FB /* Frameworks */,
 				402457A91EF4ED5B00AD77FB /* Resources */,
+				4314FEE3D1648803DA20BF6B /* [CP] Embed Pods Frameworks */,
+				4EC2B0891EF26172977876A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,21 +184,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				402457BC1EF4ED5B00AD77FB /* LaunchScreen.storyboard in Resources */,
+				402457CE1EF4F9CA00AD77FB /* Roboto-Regular.ttf in Resources */,
+				402457CC1EF4F9CA00AD77FB /* Images.xcassets in Resources */,
+				402457C41EF4EEEA00AD77FB /* GoogleService-Info.plist in Resources */,
 				402457B91EF4ED5B00AD77FB /* Assets.xcassets in Resources */,
+				402457CD1EF4F9CA00AD77FB /* LaunchScreen.xib in Resources */,
 				402457B41EF4ED5B00AD77FB /* Main.storyboard in Resources */,
+				402457CF1EF4F9CA00AD77FB /* RobotoMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0050B66C4FA1133096923C5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4314FEE3D1648803DA20BF6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morssage/Pods-Morssage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC2B0891EF26172977876A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morssage/Pods-Morssage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		402457A71EF4ED5B00AD77FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402457B11EF4ED5B00AD77FB /* ViewController.swift in Sources */,
+				402457B11EF4ED5B00AD77FB /* MainVC.swift in Sources */,
 				402457B71EF4ED5B00AD77FB /* Morssage.xcdatamodeld in Sources */,
 				402457AF1EF4ED5B00AD77FB /* AppDelegate.swift in Sources */,
+				402457C61EF4F9BC00AD77FB /* Constants.swift in Sources */,
+				4024581B1EF5A1F900AD77FB /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +374,12 @@
 		};
 		402457C11EF4ED5B00AD77FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5E4FC025D3C891F153537F /* Pods-Morssage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W352GN58Z7;
 				INFOPLIST_FILE = Morssage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.superiorfuture.Morssage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +389,12 @@
 		};
 		402457C21EF4ED5B00AD77FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5F4296504488A2182B6A82 /* Pods-Morssage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W352GN58Z7;
 				INFOPLIST_FILE = Morssage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.superiorfuture.Morssage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +421,7 @@
 				402457C21EF4ED5B00AD77FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
